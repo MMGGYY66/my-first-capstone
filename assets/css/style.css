@@ -1,0 +1,10 @@
+/* general rules */
+
+html,
+body,
+div,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

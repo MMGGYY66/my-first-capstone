@@ -1,0 +1,20 @@
+{
+  "name": "my-first-capstone",
+  "version": "1.0.0",
+  "description": "My Microverse first capstone project (Module One)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMGGYY66/my-first-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMGGYY66/my-first-capstone/issues"
+  },
+  "homepage": "https://github.com/MMGGYY66/my-first-capstone#readme"
+}
