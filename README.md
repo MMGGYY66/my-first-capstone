@@ -59,12 +59,12 @@ My Microverse first capstone project (Module One)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--   [Live Demo Link](https://shahadat3669.github.io/pie-world-conference-page)
+-   [Live Demo Link](https://github.com/MMGGYY66/my-first-capstone)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👁 Presentation <a name="presentation"></a>
 
--   [presentation Link](https://www.loom.com/share/ed1887a99d9645bb99272ea74f5a814b)
+-   [presentation Link]()
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # creating my first capstone, I will:
@@ -78,11 +78,11 @@ My Microverse first capstone project (Module One)
 
 ## Deploy my website with github pages":
 
-[link to my first capstone: ](https:)
+[link to my first capstone: ]()
 
 ## - Loom video link:
 
-[Loom walking through for my first capstone: ](https:)
+[Loom walking through for my first capstone: ]()
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -113,7 +113,7 @@ For stylelint error run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code>
 
 👤 **Mohamed Gamil Eldimardash**
 
--   GitHub: [@githubhandle](https://github.com/MMGGYY66)
+-   GitHub: [@github](https://github.com/MMGGYY66)
 -   LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
 
 <!-- CONTRIBUTING -->
@@ -122,7 +122,7 @@ For stylelint error run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
