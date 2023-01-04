@@ -89,13 +89,13 @@ body {
 }
 
 .container {
-  background: url("../../public/images/header-bg.jpg");
+  background: url("./public/images/header-bg.jpg");
   margin-top: 22px;
   z-index: -99;
 }
 
 .aboutcontainer {
-  background: url("../../public/images/header-bg.jpg");
+  background: url("../public/images/header-bg.jpg");
 }
 
 .back {
