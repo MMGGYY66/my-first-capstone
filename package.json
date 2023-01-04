@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "name": "my-first-capstone",
+  "description": "My Microverse first capstone project (Module One)",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMGGYY66/my-first-capstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMGGYY66/my-first-capstone/issues"
+  },
+  "homepage": "https://github.com/MMGGYY66/my-first-capstone#readme"
+}

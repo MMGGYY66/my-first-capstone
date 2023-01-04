@@ -83,12 +83,12 @@ const generateSpeakers = (n = 2) => {
       <img
         src="${speakersList[i].speakerImageUrl}"
         alt="speaker-${speakersList[i].id}: ${speakersList[i].speakerName}"
-        class="speakers-card-img relative w-[75%]"
+        class="speakers-card-img relative w-75"
       />
       <img
         src="./public/images/speaker-bg.png"
         alt="speaker background"
-        class="absolute -top-[20%] right-[50%] -z-10 w-[40%]"
+        class="absolute minus-20-top right50 -z-10 w-40"
       />
     </div>
     <div class="speakers-card-content flex col-span-2  flex-col gap-2">
