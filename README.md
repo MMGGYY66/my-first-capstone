@@ -59,12 +59,12 @@ My Microverse first capstone project (Module One)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--   [Live Demo Link](https://github.com/MMGGYY66/my-first-capstone)
+-   [Live Demo Link](https://mmggyy66.github.io/my-first-capstone/index.html)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👁 Presentation <a name="presentation"></a>
 
--   [presentation Link]()
+-   [Loom presentation Link](https://github.com/MMGGYY66/my-first-capstone)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # creating my first capstone, I will:
@@ -78,11 +78,11 @@ My Microverse first capstone project (Module One)
 
 ## Deploy my website with github pages":
 
-[link to my first capstone: ]()
+[link to my first capstone: ](https://mmggyy66.github.io/my-first-capstone/index.html)
 
 ## - Loom video link:
 
-[Loom walking through for my first capstone: ]()
+[Loom walking through for my first capstone: ](https://github.com/MMGGYY66/my-first-capstone)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -132,7 +132,7 @@ Feel free to check the issues page
 
 Give a ⭐️ if you like this project!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">(back to top)</a></p>
 
 <!-- ACKNOWLEDGEMENTS -->
 

@@ -326,6 +326,7 @@ button,
   color: lightgrey;
 }
 
+.indicator,
 .program .indicator {
   width: 3rem;
   margin: 0 auto 1rem;
