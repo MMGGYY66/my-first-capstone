@@ -458,8 +458,26 @@ button,
   display: none;
 }
 
+::-webkit-search-decoration {
+  appearance: none;
+}
+
+::-webkit-file-upload-button {
+  appearance: button;
+
+  /* 1 */
+  font: inherit;
+
+  /* 2 */
+}
+
 :-moz-focusring {
   outline: auto;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
 }
 
 :-moz-ui-invalid {
@@ -474,47 +492,11 @@ progress {
   vertical-align: baseline;
 }
 
-/*
-Correct the cursor style of increment and decrement buttons in Safari.
-*/
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/*
-1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
-*/
-
 [type="search"] {
   appearance: textfield;
 
   /* 1 */
   outline-offset: -2px;
-
-  /* 2 */
-}
-
-/*
-Remove the inner padding in Chrome and Safari on macOS.
-*/
-
-::-webkit-search-decoration {
-  appearance: none;
-}
-
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Change font properties to `inherit` in Safari.
-*/
-
-::-webkit-file-upload-button {
-  appearance: button;
-
-  /* 1 */
-  font: inherit;
 
   /* 2 */
 }
