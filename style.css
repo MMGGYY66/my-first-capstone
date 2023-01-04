@@ -95,11 +95,11 @@ body {
 }
 
 .aboutcontainer {
-  background: url("../public/images/header-bg.jpg");
+  background: url("./public/images/header-bg.jpg");
 }
 
 .back {
-  background: url("../../public/images/header-text-bg.png");
+  background: url("./public/images/header-text-bg.png");
 }
 
 .w-75 {
@@ -316,7 +316,7 @@ button,
 
 /* ---------------Program Section--------------- */
 .program {
-  background: url("../../public/images/program-bg.jpg");
+  background: url("./public/images/program-bg.jpg");
   filter: grayscale(1px);
   height: 100%;
   color: white;
