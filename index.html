@@ -1,415 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home || Mohamed Eldimardash's first capstone</title>
 
-		<link
-			rel="icon"
-			type="image/x-icon"
-			href="./public/images/logo-arabic.png"
-		/>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Home || Mohamed Eldimardash's first capstone</title>
 
-		<!-- Lato fonts official -->
-		<link rel="stylesheet" href="https://use.typekit.net/gmu8egi.css" />
+	<link rel="icon" type="image/x-icon" href="./public/images/logo-arabic.png" />
 
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-    <link href="/dist/tailwind-css/input.css" rel="stylesheet">
-    
-		<link rel="stylesheet" href="./dist/css/main.css" />
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-  
-	<body class="min-h-screen overflow-x-hidden">
-		<!-- header section  -->
-		<header>
-			<!-- header top  -->
-			<nav class="header-top hidden bg-metal text-white md:flex">
-				<div
-					class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:w-83 flex-row-reverse"
-				>
-					<a href="#">Logout</a>
-					<a href="#">My page</a>
-					<a href="#">English</a>
+	<!-- Lato fonts official -->
+	<link rel="stylesheet" href="https://use.typekit.net/gmu8egi.css" />
 
-					<a href="https://twitter.com/MOHAMEDELDIMARd">
-						<svg
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<g id="twitter-icon">
-								<path
-									id="twitter_2"
-									d="M22 5.90704C21.2504 6.23442 20.4565 6.44908 19.644 6.54404C20.4968 6.04327 21.138 5.24915 21.448 4.31004C20.64 4.78037 19.7587 5.11164 18.841 5.29004C18.4545 4.88525 17.9897 4.56343 17.4748 4.34422C16.9598 4.12501 16.4056 4.01301 15.846 4.01504C13.58 4.01504 11.743 5.82504 11.743 8.05504C11.743 8.37104 11.779 8.68004 11.849 8.97504C10.2236 8.89774 8.63212 8.48245 7.17617 7.75568C5.72022 7.02891 4.43176 6.00662 3.393 4.75404C3.02883 5.36844 2.83742 6.06982 2.839 6.78404C2.8397 7.45201 3.00683 8.10927 3.32529 8.69644C3.64375 9.2836 4.1035 9.78215 4.663 10.147C4.01248 10.126 3.37602 9.95237 2.805 9.64004V9.69004C2.805 11.648 4.22 13.281 6.095 13.653C5.74261 13.7465 5.37958 13.7939 5.015 13.794C4.75 13.794 4.493 13.769 4.242 13.719C4.51008 14.527 5.02311 15.2314 5.70982 15.7344C6.39653 16.2374 7.22284 16.5141 8.074 16.526C6.61407 17.6506 4.82182 18.2581 2.979 18.253C2.647 18.253 2.321 18.233 2 18.197C3.88125 19.3877 6.06259 20.0183 8.289 20.015C15.836 20.015 19.962 13.858 19.962 8.51904L19.948 7.99604C20.7529 7.42971 21.4481 6.72189 22 5.90704V5.90704Z"
-									fill="white"
-								/>
-							</g>
-						</svg>
-					</a>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="/dist/tailwind-css/input.css" rel="stylesheet">
 
-					<a href="https://www.facebook.com/MOHAMED.ELDIMARDASH">
-						<svg
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<g id="facebook">
-								<path
-									id="icon"
-									d="M9.04598 5.865V8.613H7.03198V11.973H9.04598V21.959H13.18V11.974H15.955C15.955 11.974 16.215 10.363 16.341 8.601H13.197V6.303C13.197 5.96 13.647 5.498 14.093 5.498H16.347V2H13.283C8.94298 2 9.04598 5.363 9.04598 5.865V5.865Z"
-									fill="white"
-								/>
-							</g>
-						</svg>
-					</a>
-				</div>
-			</nav>
-			<!-- navigation menu  -->
-			<nav
-				class="navbar relative bg-transparent md:bg-white md:shadow-sm"
-			>
-				<div
-					class="navbar-inner mx-auto flex items-center justify-between gap-4 px-4 py-3"
-				>
-					<button
-						id="hamburger-button"
-						class="hamburger flex-start bg h-10 cursor-pointer md:hidden"
-					>
-						<div
-							class="top-4 -mt-0.5 h-1 w-8 rounded bg-heavy-metal transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:bg-heavy-metal before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:bg-heavy-metal after:transition-all after:duration-500 after:content-['']"
-						></div>
-					</button>
-					<!-- logo  -->
+	<link rel="stylesheet" href="./dist/css/main.css" />
+	<link rel="stylesheet" href="./style.css" />
+</head>
 
-					<div id="arabic">
-						<a
-							href="index.html"
-							class="logo hidden items-center gap-2 leading-6 transition-all md:flex"
-						>
-							<img
-								src="./public/images/logo-arabic2.jpg"
-								style="width: 222px"
-								alt="logo"
-							/>
-						</a>
-					</div>
+<body class="min-h-screen overflow-x-hidden">
+	<!-- header section  -->
+	<header>
+		<!-- header top  -->
+		<nav class="header-top hidden bg-metal text-white md:flex">
+			<div class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:w-83 flex-row-reverse">
+				<a href="#">Logout</a>
+				<a href="#">My page</a>
+				<a href="#">English</a>
 
-					<div class="relative flex items-center justify-center">
-						<ul
-							class="hidden items-center gap-9 gap-y-4 text-xl md:flex md:flex-wrap"
-							aria-label="main"
-						>
-							<li
-								class="text-coral-red hover:text-coral-red hover:opacity-90"
-							>
-								<a href="./about.html" class=""> About </a>
-							</li>
-							<li class="hover:text-coral-red hover:opacity-90">
-								<a href="#program" class=""> Program </a>
-							</li>
+				<a href="https://twitter.com/MOHAMEDELDIMARd">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g id="twitter-icon">
+							<path id="twitter_2"
+								d="M22 5.90704C21.2504 6.23442 20.4565 6.44908 19.644 6.54404C20.4968 6.04327 21.138 5.24915 21.448 4.31004C20.64 4.78037 19.7587 5.11164 18.841 5.29004C18.4545 4.88525 17.9897 4.56343 17.4748 4.34422C16.9598 4.12501 16.4056 4.01301 15.846 4.01504C13.58 4.01504 11.743 5.82504 11.743 8.05504C11.743 8.37104 11.779 8.68004 11.849 8.97504C10.2236 8.89774 8.63212 8.48245 7.17617 7.75568C5.72022 7.02891 4.43176 6.00662 3.393 4.75404C3.02883 5.36844 2.83742 6.06982 2.839 6.78404C2.8397 7.45201 3.00683 8.10927 3.32529 8.69644C3.64375 9.2836 4.1035 9.78215 4.663 10.147C4.01248 10.126 3.37602 9.95237 2.805 9.64004V9.69004C2.805 11.648 4.22 13.281 6.095 13.653C5.74261 13.7465 5.37958 13.7939 5.015 13.794C4.75 13.794 4.493 13.769 4.242 13.719C4.51008 14.527 5.02311 15.2314 5.70982 15.7344C6.39653 16.2374 7.22284 16.5141 8.074 16.526C6.61407 17.6506 4.82182 18.2581 2.979 18.253C2.647 18.253 2.321 18.233 2 18.197C3.88125 19.3877 6.06259 20.0183 8.289 20.015C15.836 20.015 19.962 13.858 19.962 8.51904L19.948 7.99604C20.7529 7.42971 21.4481 6.72189 22 5.90704V5.90704Z"
+								fill="white" />
+						</g>
+					</svg>
+				</a>
 
-							<li class="hover:text-coral-red hover:opacity-90">
-								<a href="#join" class=""> Join </a>
-							</li>
-
-							<li class="hover:text-coral-red hover:opacity-90">
-								<a href="#partner" class=""> Sponsor </a>
-							</li>
-							<li class="hover:text-coral-red hover:opacity-90">
-								<a href="#" class=""> News </a>
-							</li>
-							<li
-								class="border-2 border-coral-red py-2 px-4 transition-all hover:bg-coral-red hover:text-white hover:opacity-90"
-							>
-								<a href="index.html" class=""> CC Campaign </a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-
-			<!-- Mobile menu -->
-			<div
-				id="mobile-menu"
-				class="absolute top-0 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white"
-			>
-				<button class="close self-start">X</button>
-				<div
-					class="flex h-screen-94h flex-col items-center gap-4 py-8"
-					aria-label="mobile-menu"
-				>
-					<a
-						href="index.html"
-						class="w-full nav-link px-4 text-center hover:opacity-70"
-						>Home</a
-					>
-
-					<a
-						href="./about.html"
-						class="w-full nav-link px-4 text-center hover:opacity-70"
-						>About</a
-					>
-					<a
-						href="#program"
-						class="nav-link w-full px-4 text-center hover:opacity-70"
-						>Program</a
-					>
-					<a
-						href="#"
-						class="nav-link w-full px-4 text-center hover:opacity-70"
-						>Join</a
-					>
-					<a
-						href="#"
-						class="nav-link w-full px-4 text-center hover:opacity-70"
-						>Sponsor</a
-					>
-					<a
-						href="#"
-						class="nav-link w-full px-4 text-center hover:opacity-70"
-						>News</a
-					>
-				</div>
-			</div>
-		</header>
-
-		<div
-			class="container relative h-full bg-cover bg-no-repeat hero-area mx-auto flex flex-col gap-4 px-4 py-28 text-metal-grey "
-		>
-			<p class="text-4xl font-medium text-coral-red">
-				"Hello! Sharing world"
-			</p>
-			<h1
-				class="back bg-cover bg-clip-text text-4xl font-bold uppercase text-transparent w-75 md:min-w-[680px] md:text-6xl"
-			>
-				World Conference <br />
-				Arabic Language Day <br />
-				2022
-			</h1>
-			<p class="border-4 border-white bg-coral-grey p-4">
-				A joyful celebration believing in the value of openness and
-				sharing, creating a positive change with people from over 80
-				countries is taking place in December, in Kuwait.
-			</p>
-
-			<div class="flex flex-col gap-3">
-				<h2 class="text-3xl font-bold">2022-12-14(WED) ~ 22(THU)</h2>
-				<h3 class="text-2xl font-medium">
-					&copy; Arabic Language Day Conference, KUWAIT CITY , KUWAIT
-				</h3>
-			</div>
-		</div>
-
-		<!-- main program section  -->
-		<section class="program" id="program">
-			<div>
-				<h2>Main Program</h2>
-				<img
-					class="indicator"
-					src="./public/images/indicator.svg"
-					alt="Line Break"
-				/>
-			</div>
-
-			<div class="cards-container">
-				<!-- program card 1 -->
-				<div class="card-item">
-					<img src="./public/images/icon1.png" alt="Lecture Icon" />
-
-					<div class="activity">
-						<h3>Lecture</h3>
-					</div>
-					<div>
-						<p>
-							Listen to the speakers from various countries about
-							the messages of sharing and opening.
-						</p>
-					</div>
-				</div>
-
-				<!-- program card 2  -->
-				<div class="card-item">
-					<img
-						src="./public/images/icon2.png"
-						alt="Exhibition Icon"
-					/>
-					<div class="activity">
-						<h3>Exhibition</h3>
-					</div>
-					<div>
-						<p>
-							Appreciate various creations applying CC license of
-							artists, organized from Art Center Nabi
-						</p>
-					</div>
-				</div>
-
-				<!-- program card 3  -->
-				<div class="card-item">
-					<img src="./public/images/icon3.png" alt="Forum Icon" />
-					<div class="activity">
-						<h3>Forum</h3>
-					</div>
-					<div>
-						<p>
-							Have the time to share your thoughts and opinions
-							with experts for each topic.
-						</p>
-					</div>
-				</div>
-
-				<!-- program card 4  -->
-				<div class="card-item">
-					<img src="./public/images/icon4.png" alt="Workshop Icon" />
-					<div class="activity">
-						<h3>Workshop</h3>
-					</div>
-					<div>
-						<p>
-							Try creating your own work using open source license
-							rather than just watching at it.
-						</p>
-					</div>
-				</div>
-
-				<!-- program card 5  -->
-				<div class="card-item">
-					<img
-						src="./public/images/icon5.png"
-						alt="Job Search Icon"
-					/>
-					<div class="activity">
-						<h3>Job Search</h3>
-					</div>
-					<div>
-						<p>
-							get opportunities to network with CC affiliates
-							around the world, also after the summit.
-						</p>
-					</div>
-				</div>
-			</div>
-			<button type="button">Join Asia Web Conference 2022</button>
-			<a href="./index.html" class="see-program">SEE THE WHOLE PROGRAM</a>
-		</section>
-
-		<!-- speakers section  -->
-		<section
-			id="speakers"
-			class="relative flex flex-col items-center gap-8 py-8 px-4 text-heavy-metal"
-		>
-			<h2
-				class="speakers-title relative text-center text-2xl font-medium after:absolute after:left-[calc(50%-48px/2)] after:-bottom-3 after:h-[2px] after:w-12 after:bg-coral-red"
-			>
-				Featured Speakers
-			</h2>
-			<div
-				class="grid w-full max-w-480px grid-cols-1 gap-4 px-6 md:my-20 max-w-full grid-cols-2 gap-11"
-				id="speakers-card-container"
-			></div>
-			<button
-				id="speakers-btn"
-				class="w-full border-2 px-4 py-3 text-metal-grey mdhidden"
-			>
-				<span>MORE</span>
-				<i
-					class="fa-solid fa-chevron-down ml-2 rotate-180 text-coral-red"
-				></i>
-			</button>
-		</section>
-
-		<!-- partner section  -->
-		<section
-			id="partner"
-			class="relative hidden flex-col items-center bg-heavy-metal py-8 px-4 md:flex"
-		>
-			<h2
-				class="partner-title relative text-center text-2xl font-medium text-metal-grey after:absolute after:left-[calc(50%-48px/2)] after:-bottom-3 after:h-[2px] after:w-12 after:bg-coral-red"
-			>
-				Partner
-			</h2>
-			<div
-				class="partners-items-container mt-5 flex w-3/4 items-center justify-center gap-4"
-			>
-				<div class="partners-img-container">
-					<img
-						src="./public/images/partner-mozilla.png"
-						alt="mozilla"
-					/>
-				</div>
-				<div class="partners-img-container">
-					<img
-						src="./public/images/partner-google.png"
-						alt="google"
-					/>
-				</div>
-				<div class="partners-img-container">
-					<img src="./public/images/partner-naver.png" alt="naver" />
-				</div>
-				<div class="partners-img-container">
-					<img
-						src="./public/images/partner-daumkakao.png"
-						alt="daumkakao"
-					/>
-				</div>
-				<div class="partners-img-container">
-					<img
-						src="./public/images/partner-airbnb.png"
-						alt="airbnb"
-					/>
-				</div>
-			</div>
-		</section>
-
-		<!-- footer section  -->
-		<footer class="footer-home">
-			<div>
-				<a class="footer-logo" href="index.html">
-					<img
-						src="./public/images/logo-arabic2.jpg"
-						style="width: 222px"
-						alt="logo"
-					/>
+				<a href="https://www.facebook.com/MOHAMED.ELDIMARDASH">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g id="facebook">
+							<path id="icon"
+								d="M9.04598 5.865V8.613H7.03198V11.973H9.04598V21.959H13.18V11.974H15.955C15.955 11.974 16.215 10.363 16.341 8.601H13.197V6.303C13.197 5.96 13.647 5.498 14.093 5.498H16.347V2H13.283C8.94298 2 9.04598 5.363 9.04598 5.865V5.865Z"
+								fill="white" />
+						</g>
+					</svg>
 				</a>
 			</div>
-			<div style="text-align: center">
-				<p>
-					&copy;2023 World Arabic Language Day. Some Rights Reserved
-				</p>
-				<p>
-					lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
-					lorum ipsum
-				</p>
-				<p>lorum ipsum lorum ipsum lm lorum ipsum lorum ipsum</p>
-			</div>
-		</footer>
+		</nav>
+		<!-- navigation menu  -->
+		<nav class="navbar relative bg-transparent md:bg-white md:shadow-sm">
+			<div class="navbar-inner mx-auto flex items-center justify-between gap-4 py-3 md:w-10/12">
+				<button id="hamburger-button" class="hamburger flex-start bg h-10 cursor-pointer md:hidden">
+					<i class="fa-sharp fa-solid fa-bars" style="font-size: 34px;"></i>
+				</button>
 
-		<div class="myprofile" style="text-align: center">
-			<hr class="my-4 w-full" />
-			<span class="text-center text-sm"
-				>&copy; 2023 created by:
-				<a
-					href="https://github.com/MMGGYY66"
-					target="_blank"
-					class="hover:underline"
-					>Mohamed Gamil Eldimardash</a
-				>
-			</span>
+				<!-- logo  -->
+				<div>
+					<a href="index.html" class="logo items-center gap-2 leading-6 transition-all md:flex">
+						<img src="./public/images/logo-arabic2.jpg" style="width: 144px" alt="logo" />
+					</a>
+				</div>
+
+				<div class="relative flex items-center justify-center">
+					<ul class="hidden items-center gap-9 gap-y-4 text-xl md:flex md:flex-wrap" aria-label="main">
+						<li class="text-coral-red hover:text-coral-red hover:opacity-90">
+							<a href="./about.html" class=""> About </a>
+						</li>
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#program" class=""> Program </a>
+						</li>
+
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#join" class=""> Join </a>
+						</li>
+
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#partner" class=""> Sponsor </a>
+						</li>
+						<li class="hover:text-coral-red hover:opacity-90">
+							<a href="#" class=""> News </a>
+						</li>
+						<li
+							class="border-2 border-coral-red py-2 px-4 transition-all hover:bg-coral-red hover:text-white hover:opacity-90">
+							<a href="index.html" class=""> CC Campaign </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Mobile menu -->
+		<div id="mobile-menu"
+			class="absolute top-0 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white">
+			<button class="close self-start">X</button>
+			<div class="flex h-screen-94h flex-col items-center gap-4 py-8" aria-label="mobile-menu">
+				<a href="index.html" class="w-full nav-link px-4 text-center hover:opacity-70">Home</a>
+
+				<a href="./about.html" class="w-full nav-link px-4 text-center hover:opacity-70">About</a>
+				<a href="#program" class="nav-link w-full px-4 text-center hover:opacity-70">Program</a>
+				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Join</a>
+				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Sponsor</a>
+				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">News</a>
+			</div>
+		</div>
+	</header>
+
+	<div
+		class="container relative h-full bg-cover bg-no-repeat hero-area mx-auto flex flex-col gap-4 px-4 py-28 text-metal-grey ">
+		<p class="text-2xl font-medium text-coral-red">
+			"Hello! Sharing world"
+		</p>
+		<h1 class="back bg-cover bg-clip-text text-3xl font-bold uppercase text-transparent min-w-680px text-6xl">
+			World Conference <br />
+			Arabic Language Day <br />
+			2022
+		</h1>
+		<p class="border-4 border-white bg-coral-grey p-4">
+			A joyful celebration believing in the value of openness and
+			sharing, creating a positive change with people from over 80
+			countries is taking place in December, in Kuwait.
+		</p>
+
+		<div class="flex flex-col gap-3">
+			<h2 class="text-3xl font-bold">2022-12-14(WED) ~ 22(THU)</h2>
+			<h3 class="text-2xl font-medium">
+				&copy; Arabic Language Day Conference, KUWAIT CITY , KUWAIT
+			</h3>
+		</div>
+	</div>
+
+	<!-- main program section  -->
+	<section class="program" id="program">
+		<div>
+			<h2>Main Program</h2>
+			<img class="indicator" src="./public/images/indicator.svg" alt="Line Break" />
 		</div>
 
-		<script src="./public/js/main.js"></script>
-	</body>
+		<div class="cards-container">
+			<!-- program card 1 -->
+			<div class="card-item">
+				<img src="./public/images/icon1.png" alt="Lecture Icon" />
+
+				<div class="activity">
+					<h3>Lecture</h3>
+				</div>
+				<div>
+					<p>
+						Listen to the speakers from various countries about
+						the messages of sharing and opening.
+					</p>
+				</div>
+			</div>
+
+			<!-- program card 2  -->
+			<div class="card-item">
+				<img src="./public/images/icon2.png" alt="Exhibition Icon" />
+				<div class="activity">
+					<h3>CC Exhibition</h3>
+				</div>
+				<div>
+					<p>
+						Appreciate various creations applying CC license of
+						artists, organized from Art Center Nabi
+					</p>
+				</div>
+			</div>
+
+			<!-- program card 3  -->
+			<div class="card-item">
+				<img src="./public/images/icon3.png" alt="Forum Icon" />
+				<div class="activity">
+					<h3>Forum</h3>
+				</div>
+				<div>
+					<p>
+						Have the time to share your thoughts and opinions
+						with experts for each topic.
+					</p>
+				</div>
+			</div>
+
+			<!-- program card 4  -->
+			<div class="card-item">
+				<img src="./public/images/icon4.png" alt="Workshop Icon" />
+				<div class="activity">
+					<h3>Workshop</h3>
+				</div>
+				<div>
+					<p>
+						Try creating your own work using open source license
+						rather than just watching at it.
+					</p>
+				</div>
+			</div>
+
+			<!-- program card 5  -->
+			<div class="card-item">
+				<img src="./public/images/icon5.png" alt="Job Search Icon" />
+				<div class="activity">
+					<h3>CC Ignite</h3>
+				</div>
+				<div>
+					<p>
+						get opportunities to network with CC affiliates
+						around the world, also after the summit.
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button">Join Asia Web Conference 2022</button>
+		<a href="./index.html" class="see-program text-center">SEE THE WHOLE PROGRAM</a>
+	</section>
+
+	<!-- speakers section  -->
+	<section id="speakers" class="relative flex flex-col items-center gap-8 py-8 px-4 text-heavy-metal">
+		<h2
+			class="speakers-title relative text-center text-2xl font-medium after:absolute after:left-[calc(50%-48px/2)] after:-bottom-3 after:h-[2px] after:w-12 after:bg-coral-red">
+			Featured Speakers
+		</h2>
+		<div class="grid w-full max-w-480px grid-cols-1 gap-4 px-6 md:my-20 max-w-full grid-cols-2 gap-11"
+			id="speakers-card-container"></div>
+		<button id="speakers-btn" class="md:hidden w-full border-2 px-4 py-3 text-metal-grey">
+			<span>MORE</span>
+			<i class="fa-solid fa-chevron-down ml-2 rotate-180 text-coral-red"></i>
+		</button>
+	</section>
+
+		<!-- partner section  -->
+	<section id="partner" class="program relative flex flex-col items-center bg-heavy-metal py-8 px-4 mobile-hidden">
+      <h2 class="partner-title relative text-center text-2xl font-medium text-metal-grey after:absolute after:left-[calc(50%-48px/2)] after:-bottom-3 after:h-[2px] after:w-12 after:bg-coral-red">
+        Partner
+				<img class="indicator" src="./public/images/indicator.svg" alt="Line Break" />
+      </h2>
+      <div class="partners-items-container mt-5 flex w-75 flex-wrap items-center justify-center gap-4">
+        <div class="partners-img-container max-w-120px">
+          <img src="./public/images/partner-mozilla.png" alt="mozilla">
+        </div>
+        <div class="partners-img-container max-w-120px">
+          <img src="./public/images/partner-google.png" alt="google">
+        </div>
+        <div class="partners-img-container max-w-120px">
+          <img src="./public/images/partner-naver.png" alt="naver">
+        </div>
+        <div class="partners-img-container max-w-120px">
+          <img src="./public/images/partner-daumkakao.png" alt="daumkakao">
+        </div>
+        <div class="partners-img-container max-w-120px">
+          <img src="./public/images/partner-airbnb.png" alt="airbnb">
+        </div>
+      </div>
+    </section>
+
+	<!-- footer section  -->
+	<footer class="footer-home">
+		<div>
+			<a class="footer-logo" href="index.html">
+				<img src="./public/images/logo-arabic2.jpg" style="width: 222px" alt="logo" />
+			</a>
+		</div>
+		<div style="text-align: center">
+			<p>
+				&copy;2023 World Arabic Language Day. Some Rights Reserved
+			</p>
+			<p>
+				lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
+				lorum ipsum
+			</p>
+			<p>lorum ipsum lorum ipsum lm lorum ipsum lorum ipsum</p>
+		</div>
+	</footer>
+
+	<div class="myprofile" style="text-align: center">
+		<hr class="my-4 w-full" />
+		<span class="text-center text-sm">&copy; 2023 created by:
+			<a href="https://github.com/MMGGYY66" target="_blank" class="hover:underline">Mohamed Gamil Eldimardash</a>
+		</span>
+	</div>
+
+	<script src="./public/js/main.js"></script>
+</body>
+
 </html>

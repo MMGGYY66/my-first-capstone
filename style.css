@@ -100,14 +100,11 @@ body {
 
 .back {
   background: url("./public/images/header-text-bg.png");
+  font-size: 2px;
 }
 
 .w-75 {
   width: 75%;
-}
-
-.min-w-680px {
-  width: 680px;
 }
 
 .minus-mt-half {
@@ -303,15 +300,8 @@ button,
 [type="reset"],
 [type="submit"] {
   appearance: button;
-
-  /* 1 */
   background-color: transparent;
-
-  /* 2 */
   background-image: none;
-
-  /* 2 */
-  margin-right: 30px;
 }
 
 /* ---------------Program Section--------------- */
@@ -652,7 +642,8 @@ textarea::placeholder {
   display: block;
 }
 
-.flex {
+.flex,
+.mobile-show {
   display: flex;
 }
 
@@ -871,7 +862,7 @@ textarea::placeholder {
 }
 
 .container p {
-  width: 420px;
+  width: 100%;
 }
 
 .container .about {
@@ -1380,11 +1371,7 @@ textarea::placeholder {
   opacity: 0.7;
 }
 
-.hamburger {
-  margin: 30px 0 0 30px;
-}
-
-/* ---------------Logo History Section in About.html--------------- */
+/* ---------Logo History Section in About.html-------- */
 .logo-history {
   background-color: white;
   opacity: 0.9;
@@ -1417,6 +1404,10 @@ textarea::placeholder {
 }
 
 .logo-history-desktop {
+  display: none;
+}
+
+.mobile-hidden {
   display: none;
 }
 
@@ -1547,7 +1538,6 @@ version */
   .see-program {
     display: block;
     text-align: center;
-    margin-left: auto;
     margin-right: 0 auto 2rem;
     color: var(--color-lightgrey);
   }
@@ -1701,8 +1691,13 @@ version */
     display: flex;
   }
 
-  .md\:hidden {
+  .md\:hidden,
+  .mobile-show {
     display: none;
+  }
+
+  .mobile-hidden {
+    display: flex;
   }
 
   .w-83 {
@@ -1822,7 +1817,7 @@ version */
     text-align: center;
   }
 
-  .md-text-6xl {
+  .text-6xl {
     font-size: 3.75rem;
     line-height: 1;
   }
