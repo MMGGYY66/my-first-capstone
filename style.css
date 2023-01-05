@@ -92,6 +92,25 @@ body {
   background: url("./public/images/header-bg.jpg");
   margin-top: 22px;
   z-index: -99;
+  padding: 0 128px 86px;
+}
+
+.hero-big p {
+  border: 0;
+  font-size: 0.9rem;
+  outline: none;
+  font-weight: 400;
+  margin: 96px 0 0;
+  color: #ec5242;
+  padding: 100px 0 24px;
+}
+
+.hero-small p {
+  font-size: 1.1rem;
+  outline: none;
+  font-weight: 300;
+  margin: 50px 0;
+  width: 85%;
 }
 
 .aboutcontainer {
@@ -106,8 +125,16 @@ body {
 
 .back {
   background: url("./public/images/header-text-bg.png");
-  font-size: 2px;
-  color: #ec5242;
+  background-repeat: repeat;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-container {
+  background: url("./public/images/header-text-bg.png");
+  background-repeat: repeat;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .w-75 {
@@ -850,10 +877,6 @@ textarea::placeholder {
   overflow-x: hidden;
 }
 
-.container p {
-  width: 100%;
-}
-
 .container .about {
   margin: 0 auto;
   width: 422vh;
@@ -949,10 +972,7 @@ textarea::placeholder {
 }
 
 .bg-coral-grey {
-  --tw-bg-opacity: 1;
-
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
-  width: 680px;
+  background-color: rgb(250 245 245);
 }
 
 .bg-\[\#282B32\] {
@@ -1642,12 +1662,24 @@ version */
 
   .container {
     z-index: -99;
+    padding: 0 128px 86px;
   }
 
-  .container p {
-    width: 640px;
+  .hero-big p {
     border: 0;
+    font-size: 1.9rem;
     outline: none;
+    font-weight: 400;
+    margin: 96px 0 0;
+    color: #ec5242;
+    padding: 100px 0 24px;
+  }
+
+  .hero-small {
+    font-size: 1.3rem;
+    outline: none;
+    font-weight: 300;
+    margin: 50px 0;
   }
 
   .container .about {
