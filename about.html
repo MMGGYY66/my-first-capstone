@@ -24,7 +24,7 @@
 	<!-- header section  -->
 	<header>
 		<!-- header top  -->
-		<nav class="header-top hidden bg-metal text-white md:flex">
+		<div class="header-top hidden bg-metal text-white md:flex">
 			<div class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:w-83 flex-row-reverse">
 				<a href="#">Logout</a>
 				<a href="#">My page</a>
@@ -50,7 +50,7 @@
 					</svg>
 				</a>
 			</div>
-		</nav>
+		</div>
 		<!-- navigation menu  -->
 		<nav class="navbar relative bg-transparent md:bg-white md:shadow-sm">
 			<div class="navbar-inner mx-auto flex items-center justify-between gap-4 py-3 md:w-10/12">
@@ -59,7 +59,7 @@
 				</button>
 
 				<!-- logo  -->
-				<div>
+				<div class="hide--mobile">
 					<a href="index.html" class="logo items-center gap-2 leading-6 transition-all md:flex">
 						<img src="./public/images/logo-arabic2.jpg" style="width: 144px" alt="logo" />
 					</a>
@@ -68,7 +68,7 @@
 				<div class="relative flex items-center justify-center">
 					<ul class="hidden items-center gap-9 gap-y-4 text-xl md:flex md:flex-wrap" aria-label="main">
 						<li class="text-coral-red hover:text-coral-red hover:opacity-90">
-							<a href="./about.html" class=""> About </a>
+							<a href="./index.html" class=""> Home </a>
 						</li>
 						<li class="hover:text-coral-red hover:opacity-90">
 							<a href="#program" class=""> Program </a>
@@ -91,22 +91,21 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
+			<!-- Mobile menu -->
+			<div id="mobile-menu"
+				class="mobile-menu absolute top-0 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white">
+				<button class="close self-start">X</button>
+				<div class="flex h-screen-94h flex-col items-center gap-4 py-8" aria-label="mobile-menu">
+					<a href="index.html" class="w-full nav-link px-4 text-center hover:opacity-70">Home</a>
 
-		<!-- Mobile menu -->
-		<nav id="mobile-menu"
-			class="mobile-menu absolute top-0 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white">
-			<button class="close self-start">X</button>
-			<div class="flex h-screen-94h flex-col items-center gap-4 py-8" aria-label="mobile-menu">
-				<a href="index.html" class="w-full nav-link px-4 text-center hover:opacity-70">Home</a>
-
-				<a href="./about.html" class="w-full nav-link px-4 text-center hover:opacity-70">About</a>
-				<a href="#program" class="nav-link w-full px-4 text-center hover:opacity-70">Program</a>
-				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Join</a>
-				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Sponsor</a>
-				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">News</a>
+					<a href="#program" class="nav-link w-full px-4 text-center hover:opacity-70">Program</a>
+					<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Join</a>
+					<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Sponsor</a>
+					<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">News</a>
+				</div>
 			</div>
 		</nav>
+
 	</header>
 
 	<section
@@ -245,5 +244,4 @@
 	</footer>
 	<script src="./public/js/main.js"></script>
 </body>
-
 </html>

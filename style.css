@@ -547,6 +547,12 @@ textarea::placeholder {
   --tw-shadow-colored: 0 0 #0000;
 }
 
+@media (max-width: 768px) {
+  .hide--mobile {
+    display: none !important;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -755,15 +761,21 @@ textarea::placeholder {
   --tw-rotate: 180deg;
 
   transform:
-    translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    translate(
+      var(--tw-translate-x),
+      var(--tw-translate-y)
+    ) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
   transform:
-    translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    translate(
+      var(--tw-translate-x),
+      var(--tw-translate-y)
+    ) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -951,6 +963,8 @@ textarea::placeholder {
 
 .speakers-card-subtitle {
   font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .bg-heavy-metal {
@@ -1009,6 +1023,7 @@ textarea::placeholder {
 
 .bg-clip-text {
   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .bg-no-repeat {
@@ -1223,8 +1238,11 @@ textarea::placeholder {
   --tw-translate-x: -1rem;
 
   transform:
-    translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    translate(
+      var(--tw-translate-x),
+      var(--tw-translate-y)
+    ) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1234,8 +1252,11 @@ textarea::placeholder {
   --tw-translate-y: -0.75rem;
 
   transform:
-    translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    translate(
+      var(--tw-translate-x),
+      var(--tw-translate-y)
+    ) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1316,8 +1337,11 @@ textarea::placeholder {
   --tw-translate-x: -1rem;
 
   transform:
-    translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    translate(
+      var(--tw-translate-x),
+      var(--tw-translate-y)
+    ) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1327,8 +1351,11 @@ textarea::placeholder {
   --tw-translate-y: 0.75rem;
 
   transform:
-    translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    translate(
+      var(--tw-translate-x),
+      var(--tw-translate-y)
+    ) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1642,6 +1669,14 @@ version */
 
   .gap-6 {
     gap: 3rem;
+  }
+
+  .speakers-card-container {
+    padding: 0 150px;
+  }
+
+  .speakers-card {
+    padding: 0 50px;
   }
 
   .speakers-head {

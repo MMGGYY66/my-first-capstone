@@ -25,7 +25,7 @@
 	<!-- header section  -->
 	<header>
 		<!-- header top  -->
-		<nav class="header-top hidden bg-metal text-white md:flex">
+		<div class="header-top hidden bg-metal text-white md:flex">
 			<div class="header-top-inner mx-auto h-12 items-center gap-8 px-4 md:w-83 flex-row-reverse">
 				<a href="#">Logout</a>
 				<a href="#">My page</a>
@@ -51,7 +51,7 @@
 					</svg>
 				</a>
 			</div>
-		</nav>
+		</div>
 		<!-- navigation menu  -->
 		<nav class="navbar relative bg-transparent md:bg-white md:shadow-sm">
 			<div class="navbar-inner mx-auto flex items-center justify-between gap-4 py-3 md:w-10/12">
@@ -60,7 +60,7 @@
 				</button>
 
 				<!-- logo  -->
-				<div>
+				<div class="hide--mobile">
 					<a href="index.html" class="logo items-center gap-2 leading-6 transition-all md:flex">
 						<img src="./public/images/logo-arabic2.jpg" style="width: 144px" alt="logo" />
 					</a>
@@ -92,20 +92,17 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
-
-		<!-- Mobile menu -->
-		<nav id="mobile-menu"
-			class="mobile-menu absolute top-0 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white">
-			<button class="close self-start">X</button>
-			<div class="flex h-screen-94h flex-col items-center gap-4 py-8" aria-label="mobile-menu">
-				<a href="index.html" class="w-full nav-link px-4 text-center hover:opacity-70">Home</a>
-
-				<a href="./about.html" class="w-full nav-link px-4 text-center hover:opacity-70">About</a>
-				<a href="#program" class="nav-link w-full px-4 text-center hover:opacity-70">Program</a>
-				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Join</a>
-				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Sponsor</a>
-				<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">News</a>
+			<!-- Mobile menu -->
+			<div id="mobile-menu"
+				class="mobile-menu absolute top-0 hidden w-full origin-top animate-times-menu-animation flex-col justify-center bg-metal px-4 py-3 text-4xl text-white">
+				<button class="close self-start">X</button>
+				<div class="flex h-screen-94h flex-col items-center gap-4 py-8" aria-label="mobile-menu">
+					<a href="./about.html" class="w-full nav-link px-4 text-center hover:opacity-70">About</a>
+					<a href="#program" class="nav-link w-full px-4 text-center hover:opacity-70">Program</a>
+					<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Join</a>
+					<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">Sponsor</a>
+					<a href="#" class="nav-link w-full px-4 text-center hover:opacity-70">News</a>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -117,7 +114,7 @@
 		</p>
 		<h1 class="hero-container bg-cover bg-clip-text text-3xl font-bold uppercase text-transparent min-w-680px text-6xl">
 			World Conference <br />
-			Arabic Language Day <br />
+			Arabic Language Day <br class="hide--mobile" />
 			2022
 		</h1>
 		<p class="hero-small border-4 border-white bg-coral-grey p-4">
