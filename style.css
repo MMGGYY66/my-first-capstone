@@ -96,11 +96,18 @@ body {
 
 .aboutcontainer {
   background: url("./public/images/header-bg.jpg");
+  z-index: -999;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
 }
 
 .back {
   background: url("./public/images/header-text-bg.png");
   font-size: 2px;
+  color: #ec5242;
 }
 
 .w-75 {
@@ -143,6 +150,67 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
+}
+
+.activity > h3 {
+  color: #ec5242;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+
+  /* 1 */
+  font-size: 100%;
+
+  /* 1 */
+  font-weight: inherit;
+
+  /* 1 */
+  line-height: inherit;
+
+  /* 1 */
+  color: inherit;
+
+  /* 1 */
+  margin: 0;
+
+  /* 2 */
+  padding: 0;
+
+  /* 3 */
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+.program button {
+  background-color: #ec5242;
+  color: white;
+  margin: 0 auto 2rem;
+  padding: 1.5rem 2.25rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.04rem;
+  border: none;
 }
 
 /*
@@ -247,63 +315,6 @@ table {
   /* 3 */
 }
 
-/*
-1. Change the font styles in all browsers.
-2. Remove the margin in Firefox and Safari.
-3. Remove default padding in all browsers.
-*/
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-
-  /* 1 */
-  font-size: 100%;
-
-  /* 1 */
-  font-weight: inherit;
-
-  /* 1 */
-  line-height: inherit;
-
-  /* 1 */
-  color: inherit;
-
-  /* 1 */
-  margin: 0;
-
-  /* 2 */
-  padding: 0;
-
-  /* 3 */
-}
-
-/*
-Remove the inheritance of text transform in Edge and Firefox.
-*/
-
-button,
-select {
-  text-transform: none;
-}
-
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
-*/
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  appearance: button;
-  background-color: transparent;
-  background-image: none;
-}
-
 /* ---------------Program Section--------------- */
 .program {
   background: url("./public/images/program-bg.jpg");
@@ -338,22 +349,20 @@ button,
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  margin-top: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  gap: 10px;
+  margin: 1rem 0.5rem 2.5rem;
 }
 
 .card-item {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 0 4.459px 0 0;
+  gap: 8.92px;
+  height: 82.06px;
+  background: #3b3e45;
   justify-content: space-evenly;
   align-content: center;
-  background-color: rgb(0 0 0 / 50%);
-  opacity: 0.7;
-  padding: 1rem;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 2rem;
 }
 
 .card-item div {
@@ -378,11 +387,6 @@ iframe,
 embed,
 object {
   display: block;
-
-  /* 1 */
-  vertical-align: middle;
-
-  /* 2 */
 }
 
 img,
@@ -399,7 +403,7 @@ video {
 }
 
 .card-item h3 {
-  color: red;
+  color: #ec5242;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -410,23 +414,6 @@ video {
   width: 100%;
   font-size: 1.1rem;
   align-self: center;
-}
-
-button,
-[role="button"] {
-  cursor: pointer;
-}
-
-.program button {
-  background-color: red;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5rem 2.25rem;
-  font-size: 1.2rem;
-  letter-spacing: 0.04rem;
-  margin-bottom: 2rem;
-  border: none;
 }
 
 .program button:hover {
@@ -1137,7 +1124,7 @@ textarea::placeholder {
 .text-coral-red {
   --tw-text-opacity: 1;
 
-  color: rgb(238 82 60 / var(--tw-text-opacity));
+  color: #ec5242;
 }
 
 .text-metal-grey {
@@ -1558,7 +1545,7 @@ version */
     margin: 0.25rem 0.3rem;
     width: 10rem;
     height: 15rem;
-    background-color: rgb(0 0 0 / 30%);
+    background: #3b3e45;
     border: 6px solid transparent;
   }
 
@@ -1615,12 +1602,17 @@ version */
     display: flex;
     flex-direction: column;
     width: 84%;
-    text-align: center;
     justify-content: center;
     align-content: flex-start;
-    align-items: center;
     z-index: -99;
     padding: 94px 44px 0 140px;
+  }
+
+  #mobile-menu {
+    overflow: hidden;
+    z-index: 99999;
+    height: 100%;
+    position: fixed;
   }
 
   .logo-history h2 {
