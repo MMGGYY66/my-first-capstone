@@ -406,13 +406,14 @@ video {
   color: #ec5242;
   margin-top: auto;
   margin-bottom: auto;
+  font-weight: bold;
 }
 
 .card-item p {
   text-align: left;
   line-height: 1rem;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   align-self: center;
 }
 
@@ -719,10 +720,6 @@ textarea::placeholder {
   max-width: 480px;
 }
 
-.max-w-fit {
-  max-width: fit-content;
-}
-
 .origin-top {
   transform-origin: top;
 }
@@ -807,6 +804,10 @@ textarea::placeholder {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.25rem;
 }
 
 .gap-4 {
@@ -911,6 +912,22 @@ textarea::placeholder {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.speakers-card img {
+  height: 182px;
+}
+
+.speakers-title {
+  font-size: 18px;
+}
+
+.speakers-card-text {
+  font-size: 13px;
+}
+
+.speakers-card-subtitle {
+  font-size: 14px;
 }
 
 .bg-heavy-metal {
@@ -1542,11 +1559,18 @@ version */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.25rem 0.3rem;
-    width: 10rem;
-    height: 15rem;
+
+    /* margin: 0.25rem 0.20rem; */
     background: #3b3e45;
     border: 6px solid transparent;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 8px 12px 20px 13px;
+    gap: 10px;
+    width: 200px;
+    height: 244px;
   }
 
   .card-item:hover {
@@ -1565,18 +1589,51 @@ version */
   }
 
   .card-item img {
-    width: 60px;
+    width: 64px;
+    height: 58px;
   }
 
   .card-item p {
-    text-align: left;
-    width: 25%;
-    font-size: 0.65rem;
-    height: 100%;
+    width: 33%;
+    font-family: Lato, cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #fff;
+  }
+
+  .card-item > h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #ff5438;
   }
 
   .border-white:hover {
     border: 6px solid white;
+  }
+
+  .gap-6 {
+    gap: 3rem;
+  }
+
+  .speakers-head {
+    font-size: 1.7rem;
+  }
+
+  .speakers-sup {
+    font-size: 1.2rem;
+  }
+
+  .speakers-p {
+    font-size: 1rem;
   }
 
   .partners-img-container {

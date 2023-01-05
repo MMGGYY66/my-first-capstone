@@ -55,28 +55,22 @@ const generateSpeakers = (n = 2) => {
   for (let i = 0; i < n; i += 1) {
     speakerCardGenerator += `
   <!-- speakers card ${speakersList[i].id} -->
-  <div class="speakers-card relative grid grid-cols-3 items-center gap-4">
+  <div class="speakers-card relative grid grid-cols-3 items-center gap-6">
     <div class="speakers-card-img-wrapper relative flex max-w-fit items-center justify-end">
       <img
         src="${speakersList[i].speakerImageUrl}"
         alt="speaker-${speakersList[i].id}: ${speakersList[i].speakerName}"
-        class="speakers-card-img relative w-75"
-      />
-      <img
-        src="./public/images/speaker-bg.png"
-        alt="speaker background"
-        class="absolute minus-20-top right50 -z-10 w-40"
+        class="speakers-card-img relative w-full"
       />
     </div>
     <div class="speakers-card-content flex col-span-2  flex-col gap-2">
-      <h3 class="speakers-card-title text-xl font-bold text-metal-grey">
+      <h3 class="speakers-card-title font-bold speakers-head text-metal-grey">
         ${speakersList[i].speakerName}
       </h3>
-      <p class="speakers-card-subtitle italic leading-6 tracking-wide text-coral-red">
+      <p class="speakers-card-subtitle speakers-sup italic leading-6 tracking-wide text-coral-red">
         ${speakersList[i].position}
       </p>
-      <hr class="h-[2px] w-7 bg-metal-grey bg-opacity-60" />
-      <p class="speakers-card-text text-metal-grey">
+      <p class="speakers-card-text speakers-p text-metal-grey">
       ${speakersList[i].description}
       </p>
     </div>
