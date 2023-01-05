@@ -1,6 +1,6 @@
 # my-first-capstone
 
-My Microverse first capstone project (Module One)
+<p id="readme-top">My Microverse first capstone project (Module One)</p>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -32,7 +32,7 @@ My Microverse first capstone project (Module One)
 > 🚧 This capstone project I am going to build a website is based on an online website for a conference.
 
 -   The website is based on the CC-Global-Summit-2015 design which
-    [Cindy Shin](https://www.behance.net/adagio07) creates. Images uses in this project are from [figma](https://www.figma.com/file/V0vg37EZhAbP9nUPOeCy6p/HTML%2FCSS-%26-JavaScript-capstone-project---Conference-page?node-id=0%3A1&t=od5hoeaQE2tKg92Y-0).🚧
+    [Cindy Shin](https://www.behance.net/adagio07) created. Images uses in this project are from [figma](https://www.figma.com/file/V0vg37EZhAbP9nUPOeCy6p/HTML%2FCSS-%26-JavaScript-capstone-project---Conference-page?node-id=0%3A1&t=od5hoeaQE2tKg92Y-0).🚧
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,7 +64,7 @@ My Microverse first capstone project (Module One)
 
 ## 👁 Presentation <a name="presentation"></a>
 
--   [Loom presentation Link](https://github.com/MMGGYY66/my-first-capstone)
+-   [Loom presentation Link](https://www.loom.com/share/e234c4d914d34edb81bb69e186f08697)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # creating my first capstone, I will:
@@ -84,7 +84,7 @@ My Microverse first capstone project (Module One)
 
 ## - Loom video link:
 
-[Loom walking through for my first capstone: ](https://github.com/MMGGYY66/my-first-capstone)
+[Loom walking through for my first capstone: ](https://www.loom.com/share/e234c4d914d34edb81bb69e186f08697)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -153,6 +153,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
