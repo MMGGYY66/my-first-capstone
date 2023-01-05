@@ -76,6 +76,8 @@ My Microverse first capstone project (Module One)
 
 -   html, css and javascript.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Deploy my website with github pages":
 
 [link to my first capstone: ](https://mmggyy66.github.io/my-first-capstone/index.html)
@@ -98,6 +100,8 @@ you have to those tools in your local machine.
 
 Clone the repository to get start with project, then make sure to install dependencies in the linters file located in the [linter](https://github.com/Bateyjosue/linters-html-css/blob/main/.github/workflows/linters.yml) file
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Run tests
 
 After pushing the changes on github go in code tab click on Merge pull request and let github action proess and check for changes.
@@ -117,6 +121,7 @@ For stylelint error run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code>
 -   LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
 
 <!-- CONTRIBUTING -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -135,6 +140,7 @@ Give a ⭐️ if you like this project!
 <p align="right"><a href="#readme-top">(back to top)</a></p>
 
 <!-- ACKNOWLEDGEMENTS -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭Acknowledgments <a name="acknowledgements"></a>
 
@@ -148,6 +154,5 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
 
-This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
